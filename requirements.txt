@@ -1,0 +1,9 @@
+torch
+numpy
+tqdm
+wandb
+ptwt
+pandas
+pyarrow
+# Last upstream revision before this W-JEPA main snapshot; preserves its adapters.
+whar-datasets @ git+https://github.com/teco-kit/whar-datasets.git@1702e44c2800a775ca95cb345783614e986d9269
