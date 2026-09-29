@@ -18,12 +18,13 @@ MHealth, RealWorld, UCI-HAR, and USC-HAD.
 
 ## Project website
 
-The [W-JEPA project page](https://yogesh914.github.io/wjepa/) is served from
-[`website/`](website/). Changes to that folder on `main` deploy automatically
-through the [GitHub Pages workflow](.github/workflows/pages.yml).
+The [W-JEPA project page](https://yogesh914.github.io/wjepa/) is served from the
+[`gh-pages` branch](https://github.com/Yogesh914/wjepa/tree/gh-pages), which contains
+only the static website files. Changes pushed to that branch deploy automatically
+through GitHub Pages.
 
-To preview locally, run `python -m http.server 8000 --directory website` and open
-`http://localhost:8000/`.
+To preview locally, run `python -m http.server 8000` from a checkout of `gh-pages`
+and open `http://localhost:8000/`.
 
 ## How it works
 
