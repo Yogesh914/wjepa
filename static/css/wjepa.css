@@ -4,6 +4,7 @@
 .publication-authors .author-name{color:var(--primary-color);font-weight:600}
 .publication-authors .affiliation{display:inline-flex;align-items:center;justify-content:center;gap:.55rem}
 .publication-authors .institution-icon{display:block;width:28px;height:28px;object-fit:contain;flex-shrink:0}
+.publication-links .brand-icon{display:block;width:20px;height:20px;object-fit:contain}
 .resource-status{min-height:1.6em;font-size:.875rem;color:var(--text-secondary);margin:.4rem 0 -1.6rem}
 .architecture-figure{margin:0;background:#fff}
 .architecture-figure>a{display:block}
