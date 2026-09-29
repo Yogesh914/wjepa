@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>W-JEPA · Wavelet decomposition</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head><body class="embed-page" data-figure-view="wavelet">
+<div class="wjepa-figure" id="wjepa-figure">
+      <section class="signal-section" aria-label="Wavelet decomposition">
+        <figure aria-describedby="wavelet-caption">
+        <div class="wave-legend" aria-label="Signal legend"><span><i class="wave-line horizontal-line" aria-hidden="true"></i>Horizontal cycling (H)</span><span><i class="wave-line vertical-line" aria-hidden="true"></i>Vertical cycling (V)</span></div>
+        <div class="signal-grid">
+          <article class="signal-card"><div class="signal-card-heading"><div><span class="number-label">A</span><h3>The original signals</h3></div><span class="signal-badge">Almost overlapping</span></div><div class="signal-plot"><canvas id="raw-signal" role="img" aria-label="Raw horizontal and vertical cycling signals from participant 8, showing nearly overlapping waveforms with Pearson correlation 0.992."></canvas></div><p class="signal-caption">The shared cadence dominates the full waveform.</p></article>
+          <article class="signal-card"><div class="signal-card-heading"><div><span class="number-label">B</span><h3 id="band-heading">The D3 wavelet detail</h3></div><span class="signal-badge accent" id="detail-fold">2.59× RMS</span></div><div class="signal-plot"><canvas id="detail-signal" role="img" aria-label="Reconstructed db4 D3 component. Horizontal cycling has 2.59 times the RMS amplitude of vertical cycling in this selected pair."></canvas></div><p class="signal-caption" id="detail-caption">Isolating a scale reveals differences already in the signal.</p></article>
+        </div>
+        <div class="band-toolbar"><div class="band-label"><span>Explore the scales</span><small>db4 · four-level decomposition</small></div><div class="band-buttons" role="group" aria-label="Wavelet component"><button type="button" data-band="0" aria-pressed="false">A4 <small>0–3.13 Hz</small></button><button type="button" data-band="1" aria-pressed="false">D4 <small>3.13–6.25 Hz</small></button><button type="button" data-band="2" aria-pressed="true">D3 <small>6.25–12.5 Hz</small></button><button type="button" data-band="3" aria-pressed="false">D2 <small>12.5–25 Hz</small></button><button type="button" data-band="4" aria-pressed="false">D1 <small>25–50 Hz</small></button></div></div>
+        <p class="signal-footnote" id="band-note" hidden></p>
+        <figcaption class="figure-caption" id="wavelet-caption"><p>Horizontal and vertical cycling are shown using two unaltered five-second windows of participant 8’s left-leg z-axis angular velocity. The raw signals have a Pearson correlation of 0.992; wavelet decomposition reveals differences within these otherwise similar signals.</p></figcaption>
+        </figure>
+      </section>
+
+  <div class="sr-only" id="announcer" aria-live="polite"></div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body></html>
