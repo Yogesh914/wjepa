@@ -16,6 +16,15 @@ W-JEPA is a self-supervised model for wearable human activity recognition. This
 repository pretrains, fine-tunes, and evaluates it on six benchmarks: PAMAP2, DSADS,
 MHealth, RealWorld, UCI-HAR, and USC-HAD.
 
+## Project website
+
+The [W-JEPA project page](https://yogesh914.github.io/wjepa/) is served from
+[`website/`](website/). Changes to that folder on `main` deploy automatically
+through the [GitHub Pages workflow](.github/workflows/pages.yml).
+
+To preview locally, run `python -m http.server 8000 --directory website` and open
+`http://localhost:8000/`.
+
 ## How it works
 
 1. **Tokenize.** Each 5-second window (500 samples at 100 Hz) is decomposed channel by
