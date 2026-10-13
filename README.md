@@ -8,7 +8,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Checkpoints](https://img.shields.io/badge/HuggingFace-Checkpoints-FFD21E.svg?logo=huggingface&logoColor=white)](https://huggingface.co/zou-research-lab/wjepa)
+[![arXiv](https://img.shields.io/badge/arXiv-Coming%20soon-b31b1b.svg?logo=arxiv&logoColor=white)](#)
 
 </h5>
 
