@@ -18,6 +18,10 @@
 repository pretrains, fine-tunes, and evaluates it on six benchmarks: PAMAP2, DSADS,
 MHealth, RealWorld, UCI-HAR, and USC-HAD.
 
+## News
+
+- **09/29/2026** - 🎉 Accepted to [Foundation Models for the Brain and Body](https://brainbodyfm-workshop.github.io/), a NeurIPS 2026 Workshop.
+
 ## How it works
 
 1. **Tokenize.** Each 5-second window (500 samples at 100 Hz) is decomposed channel by
