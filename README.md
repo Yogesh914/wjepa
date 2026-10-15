@@ -10,7 +10,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Checkpoints](https://img.shields.io/badge/HuggingFace-Checkpoints-FFD21E.svg?logo=huggingface&logoColor=white)](https://huggingface.co/zou-research-lab/wjepa)
-[![arXiv](https://img.shields.io/badge/arXiv-Coming%20soon-b31b1b.svg?logo=arxiv&logoColor=white)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.19411-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.19411)
 
 </h5>
 
